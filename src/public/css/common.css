@@ -1,0 +1,47 @@
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+    height: 4rem;
+}
+
+.header__inner--logo img {
+    width: 5rem;
+    height: auto;
+    vertical-align: middle;
+    padding-left: 1.0rem;
+    margin-right: 8px;
+}
+
+.header__inner--logo{
+    display: flex;
+    align-items: center;
+}
+
+.header__inner--logo-text{
+    font-size: 2rem;
+    color: #000000c3;
+}
+
+.header-nav__button {
+    width: 8rem;
+    padding: 3px 0;
+    margin: 2.5rem 2rem 2rem 2rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #a8bccc, #b2e0ec);
+    text-align: center;
+    
+    display: block;
+    font-size: 1.3rem;
+}
+
+.header-nav__button:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.05);
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
